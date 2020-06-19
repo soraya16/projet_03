@@ -1,0 +1,128 @@
+/* Selecteurs generals*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*header*/
+
+#haut{
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #F5D222;
+	background-color:#239E75;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/* article*/
+#letout{
+	background-color: #FAD2E1;
+}
+
+
+#lanote{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Pattaya', sans-serif;
+	
+}
+#icon{
+	text-align: center;
+	padding-top: 1em;
+}
+.fa-music{
+	font-size: 50px;
+	color: #F05F4B;
+
+}
+
+.petitHead{
+	text-align: center;
+	font-family: cursive;
+	margin-top: 30px;
+	margin-bottom: 15px;
+
+}
+.plat{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	padding: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.norriture{
+	width: 90%;
+
+}
+.prix{
+
+	width: 10%;
+	margin-right: 0px;
+}
+#foot{
+	text-align: center;
+	font-family: 'Pattaya', sans-serif;
+}
+.petitemus{
+	font-size: 25px;
+}
+/*Footer*/
+
+#bas{
+	width: 100%;
+	display: flex;
+	font-size: 20px;
+	background-color: #239E75;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	
+}
+
+#mention{
+	width: 50%;
+	color: #F5D222;
+	text-align: left;
+	padding-left: 10px;
+
+}
+
+#contact{
+	width:50%;
+	color: #F5D222;
+	text-align: right;
+	padding-right: 10px;
+}
+/* media queries for screens of less than 500px */
+@media all and (max-width: 500px){
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#haut{
+	width: 100%;
+	font-size: 20px;
+}
+#lanote{
+	font-size: 30px;
+}
+
+.petitHead{
+	font-size: 15px;
+}
+.plat{
+	font-size: 12px;
+}
+#foot{
+	font-size: 20px;
+}
+#bas{
+	width: 100%;
+	font-size: 15px;
+}
+}
+
