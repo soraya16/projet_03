@@ -1,0 +1,124 @@
+/* Selecteurs generals*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*header*/
+
+header{
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #F5D222;
+	background-color:#239E75;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 2em;
+}
+
+/*article*/
+
+#leTout{
+	height: 80%;
+}
+
+.resto{
+	display: flex;
+	width: 100%;
+
+}
+.petitMenu{
+	width: 30%;
+	height: 30em;
+	text-align: center;
+	margin: auto ;
+	margin-bottom: 3em;
+	box-shadow: 2px 2px 2px 2px #C6C5C6;
+	
+}
+#laNote{
+	background-color: #FAD2E1;
+	font-family: karumbi, cursive;
+	
+}
+.icon{
+	color: #060606;
+}
+#leChic{
+	background-color: #FDF3F9;
+	font-family: Apple Chancery, cursive;
+}
+#leDelice{
+	background-color: #F5FBFC;
+	font-family: 'Dancing Script', cursive;
+}
+#laPalette{
+	font-family: Brush Script Std, cursive;
+}
+#prochaine{
+	width: 6.5em;
+	padding:10px;
+	color: #F5D222;
+	margin: auto;
+	background-color: #239E75;
+	font-family: Manjari Thin, sans-serif;
+	border-radius: 10px;
+}
+
+/*Footer*/
+
+#bas{
+	width: 100%;
+	display: flex;
+	font-size: 20px;
+	background-color: #239E75;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 2em;
+}
+
+#mention{
+	width: 50%;
+	color: #F5D222;
+	text-align: left;
+	padding-left: 10px;
+
+}
+
+#contact{
+	width:50%;
+	color: #F5D222;
+	text-align: right;
+	padding-right: 10px;
+}
+
+/* media queries for screens of less than 500px */
+@media all and (max-width: 500px) {
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	.resto{
+		flex-direction: column;
+		width: 100%;
+	}
+	.petitMenu{
+		width: 70%;
+		height: 15em;
+	}
+	#bas{
+	font-size: 15px;
+}
+}
+
+/* media queries for 768-1024 tab*/	
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+	.petitMenu{
+		height: 20em;
+	}
+}
