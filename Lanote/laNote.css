@@ -18,8 +18,17 @@
 }
 
 /* article*/
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 1em;
+	font-family: sans-serif;
+}
 #letout{
 	background-color: #FAD2E1;
+	margin: 3em;
+	border: solid #FAD2E1;
 }
 
 
@@ -77,8 +86,12 @@
 	display: flex;
 	font-size: 20px;
 	background-color: #239E75;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
 	
 }
 

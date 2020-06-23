@@ -36,8 +36,14 @@ header{
 	margin: auto ;
 	margin-bottom: 3em;
 	box-shadow: 2px 2px 2px 2px #C6C5C6;
+	display: table;
 	
 }
+.inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+
 #laNote{
 	background-color: #FAD2E1;
 	font-family: karumbi, cursive;
@@ -65,6 +71,7 @@ header{
 	background-color: #239E75;
 	font-family: Manjari Thin, sans-serif;
 	border-radius: 10px;
+	margin-bottom: 3em;
 }
 
 /*Footer*/
@@ -76,7 +83,10 @@ header{
 	background-color: #239E75;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	margin-top: 2em;
+	position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #mention{
