@@ -19,23 +19,24 @@
 
 /* article*/
 
-h1{
+h2{
 	text-align: center;
 	font-size: 30px;
-	margin-bottom: 1em;
+	margin-top: 15px;
 	font-family: sans-serif;
 }
 #letout{
 	background-color: #FAD2E1;
-	margin: 3em;
+	margin: 2em;
 	border: solid #FAD2E1;
+	color: #3C272C;
 }
 
 
 #lanote{
 	text-align: center;
 	font-size: 60px;
-	font-family: 'Pattaya', sans-serif;
+	font-family: 'Devonshire', cursive;
 	
 }
 #icon{
@@ -48,12 +49,41 @@ h1{
 
 }
 
+.titre{
+	width: 100%;
+	display: flex;
+}
+
+.trait{
+	margin: auto;
+	width: 30%;
+	height: 5px;
+	background-color:#3C272C;
+}
+
 .petitHead{
 	text-align: center;
 	font-family: cursive;
 	margin-top: 30px;
 	margin-bottom: 15px;
+	position: relative;
 
+}
+.petitHead:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 1px;
+  background-color: #060100;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.petitHead:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 .plat{
 	width: 80%;
@@ -74,7 +104,8 @@ h1{
 }
 #foot{
 	text-align: center;
-	font-family: 'Pattaya', sans-serif;
+	font-family: 'Devonshire', cursive;
+
 }
 .petitemus{
 	font-size: 25px;
@@ -102,6 +133,22 @@ h1{
 	border: none;
 	text-decoration: none;
 }
+
+.btn:hover{
+
+
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 
 #mention{
 	
@@ -131,6 +178,7 @@ h1{
 .petitHead{
 	font-size: 15px;
 }
+
 .plat{
 	font-size: 12px;
 }

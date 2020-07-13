@@ -26,21 +26,26 @@
 }
 
 
-#lechic{
+h2{
 	text-align: center;
+	font-family: 'Redressed', cursive;
+	background: linear-gradient( to right,#F88512,#C057F9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-size: 60px;
-	font-family: 'Pattaya', sans-serif;
-	color: #B06FEE;
 }
 #partUN{
 	color: #F36B35;
+	width: 100%;
 }
 
 #partDEUX{
 	color: #D27FFE;
+	width: 100%;
 }
 #partTrois{
 	color: #8B53D2;
+	width: 100%;
 }
 .petitHead{
 	text-align: center;
@@ -48,8 +53,50 @@
 	font-size: 20px;
 	margin-top: 30px;
 	margin-bottom: 15px;
+	position: relative;
 
 }
+.petitHead:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 1px;
+  background-color:black;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.petitHead:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.titre{
+	width: 100%;
+	display: flex;
+}
+.traitUN{
+	width: 30%;
+	margin: auto;
+	height: 5px;
+	background-color:#F36B35;
+}
+.traitDEUX{
+	width: 30%;
+	margin: auto;
+	height: 5px;
+	background-color:#D27FFE;
+
+}
+.traitTROIS{
+	width: 30%;
+	margin: auto;
+	height: 5px;
+	background-color:#8B53D2;
+
+}
+
 .plat{
 	width: 80%;
 	margin: auto;
@@ -90,6 +137,22 @@
 	border: none;
 	text-decoration: none;
 }
+
+.btn:hover{
+
+
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 
 #mention{
 	
