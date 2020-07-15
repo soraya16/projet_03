@@ -11,10 +11,14 @@
 	text-align: center;
 	font-size: 30px;
 	font-family: sans-serif;
-	color: #F5D222;
 	background-color:#239E75;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-bottom: 30px;
+}
+a{
+	text-decoration: none;
+	color: #F5D222;
 }
 
 /* article*/
@@ -30,6 +34,7 @@ h2{
 	margin: 2em;
 	border: solid #FAD2E1;
 	color: #3C272C;
+	margin-bottom: 75px;
 }
 
 

@@ -11,14 +11,21 @@
 	text-align: center;
 	font-size: 30px;
 	font-family: sans-serif;
-	color: #F5D222;
 	background-color:#239E75;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	margin-bottom: 2em;
+	margin-bottom: 30px;
+}
+a{
+	text-decoration: none;
+	color: #F5D222;
 }
 
 /* article*/
+
+article{
+	margin-bottom: 75px;
+}
 
 
 h2{

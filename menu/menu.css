@@ -11,17 +11,21 @@ header{
 	text-align: center;
 	font-size: 25px;
 	font-family: sans-serif;
-	color: #F5D222;
 	background-color:#239E75;
 	padding-bottom: 15px;
 	padding-top: 15px;
 	margin-bottom: 2em;
+}
+a{
+	text-decoration: none;
+	color: #F5D222;
 }
 
 /*article*/
 
 #leTout{
 	height: 80%;
+	margin-bottom: 75px;
 }
 
 .resto{
@@ -118,7 +122,7 @@ margin-top: 20px;
 	font-family: cursive;
 }
 #prochaine{
-	width: 7.5em;
+	width: 8.5em;
 	padding:10px;
 	color: #F5D222;
 	margin: auto;
