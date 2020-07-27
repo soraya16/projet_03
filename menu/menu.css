@@ -130,10 +130,11 @@ margin-top: 20px;
 	font-family: Manjari Thin, sans-serif;
 	border-radius: 10px;
 	margin-bottom: 3em;
+	font-size: 30px;
 
 }
 
-.loading-ellipsis:after {
+#prochaine:after {
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
@@ -148,9 +149,6 @@ margin-top: 20px;
   }
 }
 
-.loading-ellipsis {
-  font-size: 30px;
-}
 
 /*Footer*/
 
